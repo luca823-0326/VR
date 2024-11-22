@@ -255,6 +255,108 @@ var APP_DATA = {
       ]
     },
     {
+      "id": "5-1",
+      "name": "麗中操場1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 2.7973094271065726,
+        "pitch": 0.05828670672545044,
+        "fov": 1.2599180821480807
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.486705270404732,
+          "pitch": 0.1615471228382468,
+          "rotation": 0,
+          "target": "1-1"
+        },
+        {
+          "yaw": -0.5382181080946822,
+          "pitch": 0.14474277559178006,
+          "rotation": 0,
+          "target": "6-2"
+        },
+        {
+          "yaw": 2.339390413865339,
+          "pitch": 0.14877942311727743,
+          "rotation": 0,
+          "target": "0-"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -3.0838170277951065,
+          "pitch": 0.2777124424637556,
+          "title": "操場跑道",
+          "text": "測驗100公尺時所用的跑道"
+        }
+      ]
+    },
+    {
+      "id": "6-2",
+      "name": "麗中操場2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -0.05164749827330084,
+        "pitch": 0.01017704403142261,
+        "fov": 1.2599180821480807
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.1976889203097727,
+          "pitch": 0.21224831865329996,
+          "rotation": 0,
+          "target": "5-1"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.6909617355996307,
+          "pitch": 0.11031529557367037,
+          "title": "中心球場",
+          "text": "戶外朝會時學生集合的地方，平時為雪生們打籃球的好去處"
+        }
+      ]
+    },
+    {
       "id": "7-",
       "name": "麗中停車場",
       "levels": [
